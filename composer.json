@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "Src/",
+      "App\\Controllers\\": "Src/Controllers",
+      "App\\Repository\\": "Src/Repositories",
+      "App\\Data\\Entity\\": "Src/Data/Entity"
+    }
+  }
+}
