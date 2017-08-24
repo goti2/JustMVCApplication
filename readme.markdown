@@ -5,3 +5,11 @@
 
 Что бы собрать приложение нужно выполнить ```composer update```
 
+
+Примеры запросов:
+``` http://localhost?ctr=Main&act=json ```
+``` http://localhost/?ctr=main&act=view ```
+
+``` http://localhost?ctr=<Controller Name>&act=<Action Name>```
+
+Нужно строго указывать Контроллер и Действие, так как в приложении нет Роутинга 
